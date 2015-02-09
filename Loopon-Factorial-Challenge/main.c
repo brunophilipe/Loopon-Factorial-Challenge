@@ -11,8 +11,8 @@
 #include <string.h>
 #include <math.h>
 
-#define OUT_LEN 1000
-#define IN_LEN 3
+#define OUT_LEN 36000
+#define IN_LEN 4
 
 char * longfat(char *number, int *status);
 
@@ -54,9 +54,9 @@ int main()
  * Function that validates the input and calculates the factorial of a number.
  * The input number should be passed as a string, for example 15 should be "15".
  *
- * The maximum supported input string legth is 3 characters, and the maximum
- * guaranteed correct output string support is 500 characters (above this value
- * it will either truncate the value or, if much higher, mess up the
+ * The maximum supported input string legth is IN_LEN characters, and the 
+ * maximum guaranteed correct output string support is OUT_LEN characters (above
+ * this value it will either truncate the value or, if much higher, mess up the
  * calculation entirely).
  *
  * The result will be a string such as "1307674368000" that should be freed

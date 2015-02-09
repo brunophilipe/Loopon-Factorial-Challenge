@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		150B35C01A8828A800E3A34D /* Loopon-Factorial-Challenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Loopon-Factorial-Challenge"; sourceTree = BUILT_PRODUCTS_DIR; };
 		150B35C31A8828A800E3A34D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		150B35CA1A88561D00E3A34D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +58,10 @@
 		150B35C21A8828A800E3A34D /* Loopon-Factorial-Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				150B35CA1A88561D00E3A34D /* README.md */,
 				150B35C31A8828A800E3A34D /* main.c */,
 			);
-			path = Loopon-Factorial-Challenge;
+			path = "Loopon-Factorial-Challenge";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,7 +80,7 @@
 			dependencies = (
 			);
 			name = "Loopon-Factorial-Challenge";
-			productName = Loopon-Factorial-Challenge;
+			productName = "Loopon-Factorial-Challenge";
 			productReference = 150B35C01A8828A800E3A34D /* Loopon-Factorial-Challenge */;
 			productType = "com.apple.product-type.tool";
 		};
